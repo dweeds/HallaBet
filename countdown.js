@@ -1,4 +1,4 @@
-const launch = new Date(Date.now() + 2143 * 60 * 60 * 24 * 14);
+const launch = new Date('2025-06-07T00:00:00Z');
 
 // Days variables
 const daysTop = document.querySelector('.top[unit=days]');

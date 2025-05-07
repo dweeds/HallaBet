@@ -75,7 +75,28 @@ sub {
     font-size: 20px !important;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
+    h1 , h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .ball-bg {
+        position: absolute;
+        top: 83%;
+        left: 50%;
+        transform: translate(-50%, -83%);
+        bottom: -80px;
+        width: 100%;
+        z-index: -10;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
     h1 , h2 {
         font-size: 40px;
     }
