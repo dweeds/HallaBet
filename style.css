@@ -1,0 +1,103 @@
+body {
+    background-color: #141E46;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+h1 {
+    color: #EC3338;
+    font-size: 64px;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+    color: #141E46;
+    font-size: 64px;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.ball-bg {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    bottom: -80px;
+    width: 50%;
+    z-index: -10;
+}
+
+.top-section {
+    height: 80vh;
+}
+
+sub {
+    font-size: 20px;
+}
+
+.second-section {
+    padding: 5%;
+    background-color: white;
+    color: #141E46;
+}
+
+.card {
+    background-color: #f0f8ff;
+    border: none;
+}
+
+.col-lg-3 p {
+    font-size: 16px !important;
+}
+
+.third-section {
+    background-color: #101838;
+}
+
+.third-section p {
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width: 500px) {
+    h1 , h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+    .top-section {
+        height: 65vh;
+    }
+
+    .ball-bg {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        bottom: -80px;
+        width: 100%;
+        z-index: -10;
+    }
+
+    .col-lg-3 p {
+        font-size: 12px !important;
+    }
+}
